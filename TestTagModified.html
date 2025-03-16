@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad Server Demo</title>
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script>
+        window.googletag = window.googletag || {cmd: []};
+        googletag.cmd.push(function() {
+            googletag.defineSlot('/2917398/news.com', [300, 250], 'div-gpt-ad-1737558661239-0').addService(googletag.pubads());
+            googletag.defineSlot('/2917398/gamessite.com', [[120, 60], [125, 125], [234, 60], [180, 150], [200, 200], [216, 36], [160, 600], [300, 600], [88, 31], [336, 280], [250, 250], [320, 480], [120, 90], [120, 30], [468, 60], [480, 320], [240, 400], [216, 54], [300, 75], [120, 600], [300, 100], [768, 1024], [1024, 768], [1, 1], [168, 42], [320, 50], [970, 90], [728, 90], [120, 20], [300, 250], [168, 28], [120, 240], [300, 50]], 'div-gpt-ad-1737559037085-0').addService(googletag.pubads());
+            
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        .ad-container {
+            border: 2px solid #ccc;
+            background-color: #fff;
+            margin: 20px auto;
+            padding: 15px;
+            width: fit-content;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .ad-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            background: #0073e6;
+            color: #fff;
+            padding: 5px;
+            border-radius: 3px;
+        }
+        iframe {
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Google Ads -->
+    <div class="ad-container">
+        <div class="ad-title">Google AdSense - news.com</div>
+        <div id='div-gpt-ad-1737558661239-0' style='min-width: 300px; min-height: 250px;'>
+            <script> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1737558661239-0'); }); </script>
+        </div>
+    </div>
+
+    <div class="ad-container">
+        <div class="ad-title">Google AdSense - gamessite.com</div>
+        <div id='div-gpt-ad-1737559037085-0' style='min-width: 88px; min-height: 20px;'>
+            <script> googletag.cmd.push(function() { googletag.display('div-gpt-ad-1737559037085-0'); }); </script>
+        </div>
+    </div>
+
+    <!-- AdButler Ads -->
+    <div class="ad-container">
+        <div class="ad-title">AdButler - Standard Banner Ad</div>
+        <iframe src='https://servedbyadbutler.com/adserve/;ID=182092;size=300x250;setID=503540;type=img;click=https://CLICK_MACRO_PLACEHOLDER' height="250" width="300" title="AdButler 1"></iframe>
+    </div>
+
+    <div class="ad-container">
+        <div class="ad-title">AdButler - Tracking Pixel</div>
+        <iframe src='https://servedbyadbutler.com/callback.spark?ID=182092&setID=13446&publisherID=114743&placementID=64302&scheduleID=62678&campaignID=14396&advertiserID=163787&bannerID=34575&type=views' height="250" width="300" title="AdButler 2"></iframe>
+    </div>
+
+    <!-- Equative Ads -->
+    <div class="ad-container">
+        <div class="ad-title">Equative (SmartAdServer) - Large Ad</div>
+        <iframe src='https://www6.smartadserver.com/ac?out=nonrich&nwid=918&siteid=47876&pgname=news_homepage&fmtid=20492&visit=m&tmstp=' height="600" width="300" title="Equative1"></iframe>
+    </div>
+
+    <div class="ad-container">
+        <div class="ad-title">Equative (SmartAdServer) - Medium Ad</div>
+        <iframe src='https://www6.smartadserver.com/ac?out=nonrich&nwid=918&siteid=47876&pgname=news_homepage&fmtid=20850&visit=m&tmstp=' height="250" width="300" title="Equative2"></iframe>
+    </div>
+
+</body>
+</html>
